@@ -28,6 +28,12 @@ body {
   text-transform: uppercase;
 }
 
+.logo img {
+  height: 60px;    /* controls logo height */
+  width: auto;      /* maintains proportions */
+  object-fit: contain;
+}
+
 /* Navigation */
 .main-nav ul {
   list-style: none;
