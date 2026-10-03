@@ -1,0 +1,133 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #0b0b10;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* Layout */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #11111a;
+  border-bottom: 1px solid #222233;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Navigation */
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.main-nav a:hover {
+  color: #c0a6ff;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.section p {
+  margin-bottom: 1.5rem;
+  color: #d0d0e0;
+}
+
+/* Hero */
+.hero {
+  background: radial-gradient(circle at top, #2b2b3f, #050509);
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Image grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Placeholder boxes for images */
+.image-placeholder {
+  border: 1px dashed #555577;
+  border-radius: 4px;
+  padding: 2rem;
+  text-align: center;
+  color: #9999bb;
+  font-size: 0.9rem;
+}
+
+/* Calendar */
+.calendar-wrapper {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.calendar-wrapper h3 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 2rem;
+  border-top: 1px solid #222233;
+  background-color: #11111a;
+  font-size: 0.85rem;
+  color: #9999bb;
+}
