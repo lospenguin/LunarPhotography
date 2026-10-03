@@ -136,3 +136,59 @@ body {
   font-size: 0.85rem;
   color: #9999bb;
 }
+
+/* Header container */
+.lp-header {
+  width: 100%;
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7; /* soft neutral like Coco's site */
+  border-bottom: 1px solid #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Navigation links */
+.lp-nav-left a,
+.lp-nav-right a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  color: #333;
+  letter-spacing: 0.5px;
+  transition: opacity 0.3s ease;
+}
+
+.lp-nav-left a:hover,
+.lp-nav-right a:hover {
+  opacity: 0.6;
+}
+
+/* Center logo stack */
+.lp-logo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo image */
+.lp-logo img {
+  height: 70px; /* adjust as needed */
+  width: auto;
+  object-fit: contain;
+}
+
+/* "photography" text under logo */
+.lp-logo-text {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+  margin-top: 0.3rem;
+  color: #333;
+  text-transform: uppercase;
+}
