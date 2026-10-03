@@ -192,3 +192,14 @@ body {
   color: #333;
   text-transform: uppercase;
 }
+
+/* Soft fade around the logo */
+.lp-logo img {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+
+  /* Feathered fade mask */
+  -webkit-mask-image: radial-gradient(circle, black 60%, transparent 100%);
+  mask-image: radial-gradient(circle, black 60%, transparent 100%);
+}
