@@ -29,9 +29,8 @@ body {
 }
 
 .logo img {
-  height: 60px;    /* controls logo height */
+  height: clamp(40px, 6vw, 70px);    /* controls logo height by screen size */
   width: auto;      /* maintains proportions */
-  object-fit: contain;
 }
 
 /* Navigation */
